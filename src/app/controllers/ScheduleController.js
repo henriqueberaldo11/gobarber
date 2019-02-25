@@ -20,7 +20,6 @@ class ScheduleController {
         }
       }
     })
-
     return res.render('schedule/index', { appointments })
   }
 }
